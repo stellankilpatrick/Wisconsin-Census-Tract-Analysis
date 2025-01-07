@@ -1,7 +1,9 @@
 # Wisconsin-Census-Tract-Analysis
+
+<img src="https://www.sco.wisc.edu/wp-content/uploads/2021/05/wi-county-plss-boundaries-final.jpg" alt="Visualization of Land Use" width="300">
+
 ## Project Overview
 This project analyzes census tract and county data of Wisconsin to study the relationship and correlation between types of land use and population. geojson data will be read in, cleaned, and analyzed. K-means clustering is used to decifer the different types of counties located throughout the state based on their land use (developed, crops, forest, etc.). Finally, a linear regression model will be trained to predict the population of any area based on the type of land contained within.
-
 This project uses Python libraries such as scikit-learn, Rasterio, geopandas, and SQLite.
 
 ## Data Sources
